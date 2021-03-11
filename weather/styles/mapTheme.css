@@ -1,0 +1,192 @@
+.mapTheme{
+    margin: 50px 50px 20px 20px;
+}
+.mapWrap{
+    position: relative;
+}
+.infoDate{
+    position: absolute;
+    z-index: 9;
+    background: white;
+    color: #1C67B1;
+    width: 200px;
+    text-align: center;
+    top: -3%;
+    border-radius: 15px;
+}
+
+
+.iconZone{
+    position: absolute;
+    display: block;
+    text-decoration: none;
+}
+/* 各縣市position */
+/* 基隆市 */
+.iconZone[name=_10017]{  
+    left: 138%;
+    top: 0%;
+}
+/* 新北市 */
+.iconZone[name=_65000]{
+    left: 101%;
+    top: -1%;
+}
+/* 臺北市 */
+.iconZone[name=_63000]{
+    left: 118%;
+    top: -5%;
+}
+/* 桃園市 */
+.iconZone[name=_68000]{  
+    left: 84%;
+    top: 3%;
+}
+/* 新竹縣 */
+.iconZone[name=_10004]{
+    left: 100%;
+    top: 20%;
+}
+/* 新竹市 */
+.iconZone[name=_10018]{  
+    left: 72%;
+    top: 10%;
+}
+/* 苗栗縣 */
+.iconZone[name=_10005]{  
+    left: 60%;
+    top: 18%;
+}
+/* 臺中市 */
+.iconZone[name=_66000]{  
+    left: 49%;
+    top: 26%;
+}
+/* 南投縣 */
+.iconZone[name=_10008]{  
+    left: 85%;
+    top: 42%;
+}
+/* 彰化縣 */
+.iconZone[name=_10007]{  
+    left: 35%;
+    top: 34%;
+}
+/* 雲林縣 */
+.iconZone[name=_10009]{  
+    left: 27%;
+    top: 43%;
+}
+/* 嘉義縣 */
+.iconZone[name=_10010]{
+    left: 25%;
+    top: 53%;
+}
+/* 嘉義市 */
+.iconZone[name=_10020]{
+    left: 67%;
+    top: 53%;
+}
+/* 臺南市 */
+.iconZone[name=_67000]{
+    left: 22%;
+    top: 64%;
+}
+/* 高雄市 */
+.iconZone[name=_64000]{  
+    left: 32%;
+    top: 77%;
+}
+/* 屏東縣 */
+.iconZone[name=_10013]{  
+    left: 55%;
+    top: 88%;
+}
+/* 臺東縣 */
+.iconZone[name=_10014]{  
+    left: 102%;
+    top: 77%;
+}
+/* 花蓮縣 */
+.iconZone[name=_10015]{  
+    left: 130%;
+    top: 43%;
+}
+/* 宜蘭縣 */
+.iconZone[name=_10002]{  
+    left: 145%;
+    top: 15%;
+}
+/* 澎湖縣 */
+.iconZone[name=_10016]{  
+    left: 0%;
+    top: 60%;
+}
+/* 金門縣 */
+.iconZone[name=_09020]{  
+    left: 10%;
+    top: 30%;
+}
+/* 連江縣 */
+.iconZone[name=_09007]{  
+    left: 15%;
+    top: 10%;
+}
+
+
+
+
+
+a span{
+    text-decoration: none;
+}
+.iconZone div{
+    display: none;
+    z-index: 9;
+    position: relative;
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.iconZone span {
+    display: block;
+    text-align: center;
+    font-size: .775rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    min-width: 60px;
+    white-space: nowrap;
+    margin: 5px;
+}
+.weatherData img {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    box-shadow: 3px 3px 10px #00569c;
+    background-color: rgba(255,255,255,.9);
+    padding: 10px;
+    border-radius: 100%;
+    z-index: 9;
+}
+.iconZone img.hidden{
+    display: none;
+}
+.iconZone div.show{
+    display: block;
+}
+.iconZone:hover{
+    z-index: 10;
+}
+
+.twMap path{
+    stroke: black;
+    fill: transparent;
+    fill: #E6F8FC;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.twMap path:hover{
+    fill: #94C2E6;
+    transform: translate(-5px,-5px);
+}

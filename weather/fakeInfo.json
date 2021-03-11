@@ -1,0 +1,134 @@
+[
+    {
+        "tag": "taipei_city",
+        "place": "臺北市",
+        "temperature": 15,
+        "weather": "cloudy"
+    },
+    {
+        "tag": "new_taipei_city",
+        "place": "新北市",
+        "temperature": 20,
+        "weather": "sunny"
+    },
+    {
+        "tag": "keelung_city",
+        "place": "基隆市",
+        "temperature": 20,
+        "weather": "sunny"
+    },
+    {
+        "tag": "taoyuan_city",
+        "place": "桃園市",
+        "temperature": 15,
+        "weather": "cloudy"
+    },
+    {
+        "tag": "hsinchu_city",
+        "place": "新竹市",
+        "temperature": 20,
+        "weather": "sunny"
+    },
+    {
+        "tag": "hsinchu_county",
+        "place": "新竹縣",
+        "temperature": 12,
+        "weather": "sunny"
+    },
+    {
+        "tag": "miaoli_county",
+        "place": "苗栗縣",
+        "temperature": 20,
+        "weather": "rainy"
+    },
+    {
+        "tag": "taichung_city",
+        "place": "臺中市",
+        "temperature": 20,
+        "weather": "sunny"
+    },
+    {
+        "tag": "nantou_county",
+        "place": "南投縣",
+        "temperature": 12,
+        "weather": "sunny"
+    },
+    {
+        "tag": "changhua_county",
+        "place": "彰化縣",
+        "temperature": 20,
+        "weather": "rainy"
+    },
+    {
+        "tag": "yunlin_county",
+        "place": "雲林縣",
+        "temperature": 25,
+        "weather": "sunny"
+    },
+    {
+        "tag": "chiayi_city",
+        "place": "嘉義市",
+        "temperature": 20,
+        "weather": "sunny"
+    },
+    {
+        "tag": "chiayi_county",
+        "place": "嘉義縣",
+        "temperature": 20,
+        "weather": "cloudy"
+    },
+    {
+        "tag": "tainan_city",
+        "place": "臺南市",
+        "temperature": 25,
+        "weather": "sunny"
+    },
+    {
+        "tag": "kaoshiung_city",
+        "place": "高雄市",
+        "temperature": 20,
+        "weather": "sunny"
+    },
+    {
+        "tag": "pingtung_county",
+        "place": "屏東縣",
+        "temperature": 20,
+        "weather": "cloudy"
+    },
+    {
+        "tag": "yilan_county",
+        "place": "宜蘭縣",
+        "temperature": 22,
+        "weather": "sunny"
+    },
+    {
+        "tag": "hualien_county",
+        "place": "花蓮縣",
+        "temperature": 20,
+        "weather": "cloudy"
+    },
+    {
+        "tag": "taitung_county",
+        "place": "臺東縣",
+        "temperature": 20,
+        "weather": "sunny"
+    },
+    {
+        "tag": "penghu_county",
+        "place": "澎湖縣",
+        "temperature": 22,
+        "weather": "sunny"
+    },
+    {
+        "tag": "kinmen_county",
+        "place": "金門縣",
+        "temperature": 20,
+        "weather": "cloudy"
+    },
+    {
+        "tag": "lienchiang_county",
+        "place": "連江縣",
+        "temperature": 20,
+        "weather": "sunny"
+    }
+]
