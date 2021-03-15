@@ -1,0 +1,110 @@
+@media (max-width: 574px) {
+    .mapTheme, .sunnyDoll{
+        display: none;
+    }
+    .timeInfo{
+        display: none;
+    }
+    .countyWeather{
+        margin: auto;
+        width: 100%;
+    }
+    .countySearch label{
+        display: block;
+    }
+    .wxPageImg img{
+        width: 100px;
+        height: 100px;
+    }
+    .wxPage2{
+        font-size: 18px;
+    }
+    .wxPage2 li{
+        font-size: 14px;
+        text-align: left;
+    }
+    .weather{
+        display: block;
+    }
+    .mainPage{
+        margin-top: 10px;
+        background: rgba(5, 137, 245, 0.37);
+        border-radius: 10px;
+        width: 80%;
+    }
+    .weatherWrap{
+        background: rgba(5, 137, 245, 0.1);
+        margin-right: auto;
+        width: 100%;
+    }
+    .weatherInfo{
+        background: rgba(5, 137, 245, 0.1);
+        margin-left: auto;
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .weekWeather{
+        width: 80%;
+    }
+    .forecastInfo{
+        bottom: 60px;
+        width: 120px;
+        left: -20px;
+    }
+}
+@media (min-width: 575px) and (max-width: 1010px) {
+    .sunnyDoll, .countyWeather{
+        display: none;
+    }
+    .mapTheme{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .weatherWrap{
+        width: 50%;
+    }
+    .weatherInfo{
+        width: 50%;
+    }
+    footer{
+        width: 90%;
+    }
+    .weekWeather{
+        width: 100%;
+    }
+    .forecastDate{
+        display: none;
+    }
+    .dayWeather:hover img { 
+        -webkit-transform: scale(2);
+        margin: 0 2em;
+    }
+    .dayWeather:hover + .dayWeather img, .dayWeather.prev img {
+        -webkit-transform: scale(1.5);
+        margin: 0 1.5em;
+    }
+}
+@media (min-width: 1011px) {
+    .forecastDate{
+        display: none;
+    }
+    .countyWeather{
+        position: absolute;
+        bottom: 1%;
+        left: 50%;
+    }
+    .dayWeather:hover img { 
+        -webkit-transform: scale(2);
+        margin: 0 2em;
+    }
+    .dayWeather:hover + .dayWeather img, .dayWeather.prev img {
+        -webkit-transform: scale(1.5);
+        margin: 0 1.5em;
+    }
+    .dayWeather ul{
+        bottom: 20px;
+    }
+}

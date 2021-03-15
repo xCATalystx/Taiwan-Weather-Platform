@@ -1,5 +1,6 @@
 .mapTheme{
     margin: 50px 50px 20px 20px;
+    top: 5%
 }
 .mapWrap{
     position: relative;
@@ -21,100 +22,100 @@
     display: block;
     text-decoration: none;
 }
-/* 各縣市position */
+/* 各縣市氣象position */
 /* 基隆市 */
 .iconZone[name=_10017]{  
-    left: 138%;
+    left: 93%;
     top: 0%;
 }
 /* 新北市 */
 .iconZone[name=_65000]{
-    left: 101%;
-    top: -1%;
+    left: 68%;
+    top: 0%;
 }
 /* 臺北市 */
 .iconZone[name=_63000]{
-    left: 118%;
-    top: -5%;
+    left: 78%;
+    top: -4%;
 }
 /* 桃園市 */
 .iconZone[name=_68000]{  
-    left: 84%;
-    top: 3%;
+    left: 56%;
+    top: 4%;
 }
 /* 新竹縣 */
 .iconZone[name=_10004]{
-    left: 100%;
+    left: 68%;
     top: 20%;
 }
 /* 新竹市 */
 .iconZone[name=_10018]{  
-    left: 72%;
-    top: 10%;
+    left: 48%;
+    top: 12%;
 }
 /* 苗栗縣 */
 .iconZone[name=_10005]{  
-    left: 60%;
-    top: 18%;
+    left: 41%;
+    top: 19%;
 }
 /* 臺中市 */
 .iconZone[name=_66000]{  
-    left: 49%;
+    left: 35%;
     top: 26%;
 }
 /* 南投縣 */
 .iconZone[name=_10008]{  
-    left: 85%;
+    left: 57%;
     top: 42%;
 }
 /* 彰化縣 */
 .iconZone[name=_10007]{  
-    left: 35%;
+    left: 28%;
     top: 34%;
 }
 /* 雲林縣 */
 .iconZone[name=_10009]{  
-    left: 27%;
+    left: 20%;
     top: 43%;
 }
 /* 嘉義縣 */
 .iconZone[name=_10010]{
-    left: 25%;
+    left: 20%;
     top: 53%;
 }
 /* 嘉義市 */
 .iconZone[name=_10020]{
-    left: 67%;
+    left: 45%;
     top: 53%;
 }
 /* 臺南市 */
 .iconZone[name=_67000]{
-    left: 22%;
+    left: 16%;
     top: 64%;
 }
 /* 高雄市 */
 .iconZone[name=_64000]{  
-    left: 32%;
+    left: 24%;
     top: 77%;
 }
 /* 屏東縣 */
 .iconZone[name=_10013]{  
-    left: 55%;
+    left: 39%;
     top: 88%;
 }
 /* 臺東縣 */
 .iconZone[name=_10014]{  
-    left: 102%;
+    left: 67%;
     top: 77%;
 }
 /* 花蓮縣 */
 .iconZone[name=_10015]{  
-    left: 130%;
+    left: 87%;
     top: 43%;
 }
 /* 宜蘭縣 */
 .iconZone[name=_10002]{  
-    left: 145%;
+    left: 95%;
     top: 15%;
 }
 /* 澎湖縣 */
@@ -179,14 +180,17 @@ a span{
     z-index: 10;
 }
 
-.twMap path{
+.twMap a{
     stroke: black;
     fill: transparent;
-    fill: #E6F8FC;
+    fill: #CEE9C8;
     transition: 0.5s;
     cursor: pointer;
 }
-.twMap path:hover{
-    fill: #94C2E6;
+.twMap a:hover{
+    fill: #197AC8;
     transform: translate(-5px,-5px);
+}
+.twMap a.click{
+    fill: #94C2E6;
 }

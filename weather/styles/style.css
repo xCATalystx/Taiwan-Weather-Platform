@@ -1,4 +1,200 @@
+body{
+    font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
+    background:linear-gradient( #E0F0F8, #3C8FD1)
+}
+main{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+.fa-map-marker-alt{
+    color: #E84233;
+}
+select{
+    border-radius: 5px;
+    background: seashell;
+}
+/* --- 第一頁 --- */
+
 .topPage{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    background:linear-gradient(#3C8FD1, #E0F0F8)
+    position: relative;
+}
+.countyWeather{
+    border-radius: 10px;
+    background: rgba(5, 137, 245, 0.37);
+}
+.countySearch label{
+    display: none;
+    position: relative;
+    left: 15%;
+    margin-top: 10px;
+}
+.countyWxPage{
+    display: flex;
+    margin: auto;
+}
+.wxPage1, .wxPage2{
+    height: 180px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.wxPage1{
+    width: 30%;
+    margin-left: 5%;
+}
+.wxPageImg{
+    position: relative;
+    margin: auto;
+}
+.wxPageImg img{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+.wxPage2{
+    width: 50%;
+    margin-left: 5px;
+}
+.wxPage2 li{
+    list-style: none;
+    margin-top: auto;
+    margin: 5px;
+}
+.sunnyDoll{
+    right: 0;
+    position: absolute;
+}
+.sunnyDoll img{
+    width: 300px;
+    height: 300px;
+}
+/* --- 第二頁 --- */
+.mainPage{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.searchBar{
+    display: block;
+    position: relative;
+    left: 10%;
+    height: 25px;
+}
+.searchBtn:hover {
+    font-size: 20px;
+}
+.weather{
+    display: flex;
+    padding: 5px;
+}
+.weatherWrap{
+    width: 40%;
+    margin-left: auto;
+    background: rgba(11, 55, 173, 0.2);
+    border-radius: 10px;
+}
+.weatherImg img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+.location, .weatherIcon, .ci{
+    text-align: center;
+}
+.location{
+    font-size: 24px;
+    margin: 10px;
+    color: white;
+}
+.ci{
+    font-size: 22px;
+    margin: 10px;
+    color: white;
+}
+.weatherIcon{
+    height: 45px;
+    margin: 10px;
+}
+.weatherIcon button{
+    font-size: 18px;
+    border-radius: 5px;
+}
+.weatherIcon button span{
+    display: none;
+}
+.weatherIcon button:hover span{
+    display: block
+}
+.weatherInfo{
+    width: 40%;
+    background: rgba(11, 55, 173, 0.2);
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: auto;
+}
+.currentDate{
+    color: white;
+    text-align: center;
+}
+.weatherText li{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+}
+
+/* --- 置底頁 --- */
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    /* background: #3C8FD1; */
+    width: 80%;
+}
+.weekWeather{
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px 10px 0 0;
+}
+.dayWeather{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+}
+
+.dayWeather img{
+    width: 100%;
+    height: 50px;
+}
+.forecastInfo{
+    display: none;
+    list-style: none;
+    position: absolute;
+    bottom: 130px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.75);
+    padding: 4px 0;
+    border-radius: 12px;
+}
+.dayWeather:hover .forecastInfo{
+    display: block;
+    color: #fff;
+}
+
+.timeInfo{
+    text-align: center;
+    position: relative;
 }
