@@ -12,16 +12,27 @@
     .countySearch label{
         display: block;
     }
+    .wxPage1, .wxPage2{
+        height: 150px;
+    }
+    .wxPage1{
+        width: 40%;
+    }
+    .wxPageLocation{
+        font-size: 20px;
+    }
     .wxPageImg img{
         width: 100px;
         height: 100px;
     }
     .wxPage2{
         font-size: 18px;
+        text-align: left;
     }
     .wxPage2 li{
         font-size: 14px;
         text-align: left;
+        left: 0;
     }
     .weather{
         display: block;
@@ -48,6 +59,9 @@
     }
     .weekWeather{
         width: 80%;
+    }
+    .weatherIcon button{
+        font-size: 16px;
     }
     .forecastInfo{
         bottom: 60px;
@@ -78,6 +92,10 @@
     .forecastDate{
         display: none;
     }
+    .dayWeather img{
+        -webkit-transition: all 0.3s;
+        -webkit-transform-origin: 50% 100%;
+    }
     .dayWeather:hover img { 
         -webkit-transform: scale(2);
         margin: 0 2em;
@@ -96,11 +114,15 @@
         bottom: 1%;
         left: 50%;
     }
-    .dayWeather:hover img { 
+    .dayWeather img{
+        -webkit-transition: all 0.3s;
+        -webkit-transform-origin: 50% 100%;
+    }
+    .dayWeather:hover img{ 
         -webkit-transform: scale(2);
         margin: 0 2em;
     }
-    .dayWeather:hover + .dayWeather img, .dayWeather.prev img {
+    .dayWeather:hover + .dayWeather img, .dayWeather.prev img{
         -webkit-transform: scale(1.5);
         margin: 0 1.5em;
     }

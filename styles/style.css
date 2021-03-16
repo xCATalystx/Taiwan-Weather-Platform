@@ -61,10 +61,14 @@ select{
     width: 50%;
     margin-left: 5px;
 }
+.wxPage2 div{
+    margin-top: 10px;
+    margin-left: 15px; 
+}
 .wxPage2 li{
     list-style: none;
     margin-top: auto;
-    margin: 5px;
+    margin-left: 0;
 }
 .sunnyDoll{
     right: 0;
@@ -154,7 +158,6 @@ select{
 footer{
     margin-left: auto;
     margin-right: auto;
-    /* background: #3C8FD1; */
     width: 80%;
 }
 .weekWeather{

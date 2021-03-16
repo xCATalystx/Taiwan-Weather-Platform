@@ -180,6 +180,11 @@ a span{
     z-index: 10;
 }
 
+.twMap{
+    filter: drop-shadow(5px 5px 5px rgba(100, 136, 235, 0.781));
+    position: relative;
+    z-index: -1;
+}
 .twMap a{
     stroke: black;
     fill: transparent;

@@ -79,12 +79,12 @@ function(data){
             <div>
               <span> ${date[1]}/${date[2]}</span>
             </div>
-            <ul>
+            <div>
               <li><span>${wx}</span></li>
               <li><span><i class="fas fa-temperature-low"></i> ${minT} ~ ${maxT}</span><i>˚C</i></li>
               <li><span><i class="fas fa-umbrella"></i> ${pop}</span><i>%</i></li>
               <li><span>${ci}</span></li>
-            </ul>
+            </div>
           </div>`;
       };
       $(".countyWxPage").empty();
@@ -137,12 +137,12 @@ function(data){
             <div>
               <span> ${date[1]}/${date[2]}</span>
             </div>
-            <ul>
+            <div>
               <li><span>${wx}</span></li>
               <li><span><i class="fas fa-temperature-low"></i> ${minT} ~ ${maxT}</span><i>˚C</i></li>
               <li><span><i class="fas fa-umbrella"></i> ${pop}</span><i>%</i></li>
               <li><span>${ci}</span></li>
-            </ul>
+            </div>
           </div>`;
       };
       $(".countyWxPage").empty();
@@ -159,12 +159,19 @@ $('.weatherData').on('click', 'img', function(e){
   $(".hidden").removeClass("hidden");
   $(".show").removeClass("show");
   $(".click").removeClass("click");
-  $(".countyWeather").hide();
+  
 
   $(e.target).addClass("hidden");
   $(e.target).siblings("div").addClass("show");
   $(`#${id}`).parent("a").addClass("click");
-  $(".countyWeather").fadeIn("quick");
+
+  if (window.matchMedia('(min-width: 1011px)').matches){
+    $(".countyWeather").hide();
+    $(".countyWeather").fadeIn("quick");
+  } else {
+    return;
+  }
+  
 });
 
 // click地圖顯示氣象資訊
@@ -181,8 +188,12 @@ $('.twMap a').on('click', function(e){
   $(".click").removeClass("click");
   $(e.target).parents("a").addClass("click");
 
-  $(".countyWeather").hide();
-  $(".countyWeather").fadeIn("quick");
+  if (window.matchMedia('(min-width: 1011px)').matches){
+    $(".countyWeather").hide();
+    $(".countyWeather").fadeIn("quick");
+  } else {
+    return;
+  }
 });
 
 // click氣象資訊換回氣象小圖
