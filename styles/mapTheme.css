@@ -169,6 +169,7 @@ a span{
     padding: 10px;
     border-radius: 100%;
     z-index: 9;
+    position: absolute;
 }
 .iconZone img.hidden{
     display: none;
