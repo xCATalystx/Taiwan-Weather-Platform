@@ -4,6 +4,7 @@ const taoyuanInfo = [];
 $.get("https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-4D24F5BE-73F7-485A-94A0-AB7B5E86D535&format=JSON",
 function(data){
   const countyData = data["records"].location;
+  console.log(countyData);
 
 
   $.getJSON("twMapId.json", function(data2){
